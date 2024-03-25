@@ -1,0 +1,22 @@
+.link-title {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+  
+  .link-text:hover + .link-title {
+    position: static;
+    left: auto;
+    top: auto;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    background-color: #fff; /* Optional: Change background color for better contrast */
+    padding: 5px; /* Optional: Add padding for better visibility */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    border: 1px solid #000; /* Optional: Add border for better visibility */
+  }
+  
